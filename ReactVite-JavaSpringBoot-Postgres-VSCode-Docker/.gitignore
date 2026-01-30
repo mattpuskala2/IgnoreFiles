@@ -1,0 +1,53 @@
+text
+# Java / Spring Boot
+target/
+*.class
+*.jar
+*.war
+.factorypath
+.settings/
+.project
+.classpath
+
+# Node / React (Vite)
+node_modules/
+dist/
+dist-ssr/
+*.local
+.eslintcache
+
+# Docker
+.docker-proxy
+docker-compose.override.yml
+
+# Virtual environment
+.env/
+venv/
+env/
+.env
+.env.local
+
+# Database files
+*.sqlite3
+db.sqlite3
+
+# Static and media files (if generated or uploaded locally)
+/static_collected/
+/media/
+target/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.log
+
+# Logs and temporary files
+*.log
+*.pot
+tmp/
+output/
+
+# Ignore Files
+# .dockerignore
+# .gitignore
